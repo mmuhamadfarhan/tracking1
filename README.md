@@ -5,7 +5,7 @@ Since all solution been parked into Azure, we need to use data factory as ETL to
 For the sap database(on-premise), we need to use etl on-premise(ssis) to transfer to cloud storage. It may need some firewall configuration to ensure connection on premise (vpn) reach ip cloud services.
 And for another csv files need to be push to new data warehouse,we can park to cloud storage. Im suggested for data warehouse, we are using azure database sql because it provide serverless compute and storage scale out.
 
-#assignment 2
+# assignment 2
 For the assignment 2, i am using combination of selenium and beautiful soup package. Unfortunately, i cant scrapping 
 Market Cap
 ,Last Price
