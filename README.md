@@ -13,24 +13,24 @@ Then, another script python(change_deli.py),im design code for change delimeter 
 Im using nifi as the tool to schedule flow python, transform the data to sql coding (split text and makesure insert into maximum 100 rows) and then ingest to postgresql db.
 
 Attach also the detail connection postgresql db to setup in nifi.
-Database Connection URL:jdbc:postgresql://127.0.0.1:5432/big
-Database Driver Class Name:org.postgresql.Driver
-Database Driver Location(s):file:////C:/Users/mmuha/Downloads/driver/postgresql-42.2.23.jar
-Database User:nifi
+1.  Database Connection URL:jdbc:postgresql://127.0.0.1:5432/big
+2.  Database Driver Class Name:org.postgresql.Driver
+3.  Database Driver Location(s):file:////C:/Users/mmuha/Downloads/driver/postgresql-42.2.23.jar
+4.  Database User:nifi
 
 
 Attach the structure db been create in my db.
-    "stockcode" character varying,
-    "stockshortname" character varying,
-    "shariah" character varying,
-    "sector" character varying,
-    "companyfullname" character varying,
-    "marketcap" character varying,
-    "lastprice" character varying,
-    "peratio" character varying,
-    "divyield" character varying,
-    "roequity" character varying,
-    "dates" character varying
+-    "stockcode" character varying,
+-    "stockshortname" character varying,
+-    "shariah" character varying,
+-    "sector" character varying,
+-    "companyfullname" character varying,
+-    "marketcap" character varying,
+-    "lastprice" character varying,
+-    "peratio" character varying,
+-    "divyield" character varying,
+-    "roequity" character varying,
+-    "dates" character varying
 
 In nifi,
 I create 3 progress group to easier the monitoring.
@@ -39,10 +39,10 @@ I create 3 progress group to easier the monitoring.
   3.load data into postgresql db.
 
 Attach the script and picture for your reference.
-bursa_scrapping0K.py(the code will scrape from website malaysia stock biz company listed 0-K)
-bursa_scrappingLZ.py(the code will scrape from website malaysia stock biz company listed L-Z)
-master.py(the code will run subsequent coding scrapping bursa_scrapping0K.py & bursa_scrappingLZ.py.After that, merge both csv)
-change_deli.py(change delimeter ',' to '|' to ensure minimal impact when convert to sql coding)
+-bursa_scrapping0K.py(the code will scrape from website malaysia stock biz company listed 0-K)
+-bursa_scrappingLZ.py(the code will scrape from website malaysia stock biz company listed L-Z)
+-master.py(the code will run subsequent coding scrapping bursa_scrapping0K.py & bursa_scrappingLZ.py.After that, merge both csv)
+-change_deli.py(change delimeter ',' to '|' to ensure minimal impact when convert to sql coding)
 
 
 GeneralFlow.JPG(General group for this flow assignment)
