@@ -39,31 +39,31 @@ I create 3 progress group to easier the monitoring.
   3.load data into postgresql db.
 
 Attach the script and picture for your reference.
--bursa_scrapping0K.py(the code will scrape from website malaysia stock biz company listed 0-K)
--bursa_scrappingLZ.py(the code will scrape from website malaysia stock biz company listed L-Z)
--master.py(the code will run subsequent coding scrapping bursa_scrapping0K.py & bursa_scrappingLZ.py.After that, merge both csv)
--change_deli.py(change delimeter ',' to '|' to ensure minimal impact when convert to sql coding)
+- bursa_scrapping0K.py(the code will scrape from website malaysia stock biz company listed 0-K)
+- bursa_scrappingLZ.py(the code will scrape from website malaysia stock biz company listed L-Z)
+- master.py(the code will run subsequent coding scrapping bursa_scrapping0K.py & bursa_scrappingLZ.py.After that, merge both csv)
+- change_deli.py(change delimeter ',' to '|' to ensure minimal impact when convert to sql coding)
 
 
-GeneralFlow.JPG(General group for this flow assignment)
+- GeneralFlow.JPG(General group for this flow assignment)
 ![GeneralFlow](https://user-images.githubusercontent.com/86910354/128871665-51994a9a-b77f-468c-a4da-10826d4c8d38.JPG)
 
-SchedulerRun.JPG(the scheduler flow for this task is every Monday to Friday; 6.00pm)
+- SchedulerRun.JPG(the scheduler flow for this task is every Monday to Friday; 6.00pm)
 ![SchedulerRun](https://user-images.githubusercontent.com/86910354/128871723-8331a8df-73d0-4dc3-9d87-7f467cbbe1e1.JPG)
 
-flowrunpython.JPG(process flow been implement in run_python group)
+- flowrunpython.JPG(process flow been implement in run_python group)
 ![flowrunpython](https://user-images.githubusercontent.com/86910354/128871789-6444ce97-183d-4ab1-9c60-ce08d8edb4c9.JPG)
 
-flowredesignstructure.JPG(process flow been implement in re-design structure for postgressql group)
+- flowredesignstructure.JPG(process flow been implement in re-design structure for postgressql group)
 ![flowredesignstructure](https://user-images.githubusercontent.com/86910354/128871822-9ec76e4b-571e-4b27-8453-a7ad0669809b.JPG)
 
-flowingest.JPG(process flow been implement in load data into postgresql db group)
+- flowingest.JPG(process flow been implement in load data into postgresql db group)
 ![flowingest](https://user-images.githubusercontent.com/86910354/128871855-f8fb171d-f8ca-45be-84d0-6b36119f1c1f.JPG)
 
-screenshot data in postgresql db
+- screenshot data in postgresql db
 ![image](https://user-images.githubusercontent.com/86910354/128872711-69b4180e-4a12-4436-9171-fc091526b9b4.png)
 
-count capture in postgresql db
+- count capture in postgresql db
 ![image](https://user-images.githubusercontent.com/86910354/128872855-5b23f339-278b-405f-b58e-41b09dd51475.png)
 
 
