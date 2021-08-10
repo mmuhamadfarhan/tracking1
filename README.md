@@ -59,3 +59,11 @@ flowredesignstructure.JPG(process flow been implement in re-design structure for
 
 flowingest.JPG(process flow been implement in load data into postgresql db group)
 ![flowingest](https://user-images.githubusercontent.com/86910354/128871855-f8fb171d-f8ca-45be-84d0-6b36119f1c1f.JPG)
+
+screenshot data in postgresql db
+![image](https://user-images.githubusercontent.com/86910354/128872711-69b4180e-4a12-4436-9171-fc091526b9b4.png)
+
+count capture in postgresql db
+![image](https://user-images.githubusercontent.com/86910354/128872855-5b23f339-278b-405f-b58e-41b09dd51475.png)
+
+
