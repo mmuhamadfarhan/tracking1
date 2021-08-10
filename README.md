@@ -18,20 +18,6 @@ Attach also the detail connection postgresql db to setup in nifi.
 3.  Database Driver Location(s):file:////C:/Users/mmuha/Downloads/driver/postgresql-42.2.23.jar
 4.  Database User:nifi
 
-
-Attach the structure db been create in my db.
--    "stockcode" character varying,
--    "stockshortname" character varying,
--    "shariah" character varying,
--    "sector" character varying,
--    "companyfullname" character varying,
--    "marketcap" character varying,
--    "lastprice" character varying,
--    "peratio" character varying,
--    "divyield" character varying,
--    "roequity" character varying,
--    "dates" character varying
-
 In nifi,
 I create 3 progress group to easier the monitoring.
   1.  run_python
