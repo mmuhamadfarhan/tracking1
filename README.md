@@ -34,9 +34,9 @@ Attach the structure db been create in my db.
 
 In nifi,
 I create 3 progress group to easier the monitoring.
-  1.run_python
-  2.re-design structure for postgressql(transform csv to sql coding and split text maximum 100 row)
-  3.load data into postgresql db.
+  1.  run_python
+  2.  re-design structure for postgressql(transform csv to sql coding and split text maximum 100 row)
+  3.  load data into postgresql db.
 
 Attach the script and picture for your reference.
 - bursa_scrapping0K.py(the code will scrape from website malaysia stock biz company listed 0-K)
